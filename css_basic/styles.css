@@ -9,7 +9,7 @@ body {
 }
 
 /* Ensure header, main, and footer take the full width */
-header, main, footer {
+.works_on_smartphone header, main, footer {
     width: 100%;              /* Make each section take the entire width */
 }
 
@@ -27,7 +27,7 @@ article {
 }
 
 /* Set aside to take 1/3 of the width */
-aside {
+.works_on_smartphone aside {
     flex: 1;                  /* Make aside take 1/3 of the available width */
     overflow-y: auto;         /* Allow vertical scrolling */
 }
