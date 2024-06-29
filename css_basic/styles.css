@@ -13,6 +13,13 @@ body {
     width: 100%;              /* Make each section take the entire width */
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 /* Make main a flex container with row direction */
 main {
     display: flex;            /* Make main a flex container */
