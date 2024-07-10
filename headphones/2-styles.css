@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    background-image: url(./headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+}
+section{
+    text-align: center;
+    color: white;
+    
+}
+h1{
+    margin-top: 100px;
+    font-weight: lighter;
+    font-size: 40px;
+
+}
+p{
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 17px;
+}
+ .pent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    margin-top:10px;
+}
+
+.pentagon-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.pentagon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: #FF6F61;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pentagon .content {
+    text-align: center;
+    color: white;
+}
+
+.percentage {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+}

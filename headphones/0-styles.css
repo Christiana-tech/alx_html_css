@@ -5,6 +5,8 @@
  body{
     background-image: url(./headphones_hero_1.jpg);
     box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 header {

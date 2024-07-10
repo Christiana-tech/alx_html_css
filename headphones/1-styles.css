@@ -1,6 +1,81 @@
 
+/*CSS for 0-index.html*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+ @import url('https://github.com/Christiana-tech/alx_html_css/blob/master/headphones/Spin-Cycle-OT-fontfacekit%20');
 
-    /* WHAT WE DO SECTION*/
+ body{
+    background-image: url(./headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+header {
+    display: flex;
+}
+
+
+
+.logo {
+    height: 35px;
+    width: auto;
+    margin-left: 300px;
+    margin-top: 25px;
+    }
+
+ nav a{
+        font-size:small;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        
+    }
+ nav ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style-type: none;
+            width: 234px;
+            height: 29.46px;
+            margin-left: 500px;
+            margin-top: 40px;
+
+    }
+
+h1,h4 {
+    color:white;
+    text-align: center;
+
+}
+p {
+    color:white;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+ .hero_section{
+    color:white;
+    text-align: center;
+    width: 100%;
+    justify-content:center;
+    margin-top: 250px;
+}
+button{
+    background-color: rgb(255, 101, 101);
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    
+    height: 45px;
+    width: 160px;
+    border: none;
+    border-radius: 23px;
+    box-shadow:inset;
+    margin-bottom: 50px;
+
+}
+
+   
+   /* WHAT WE DO SECTION*/
 
     @import url('https://fonts.cdnfonts.com/css/source-sans-pro');
     @import url('https://fonts.cdnfonts.com/css/spin-cycle');
@@ -89,18 +164,21 @@
   }
   section{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 300px;
+    
+    
     
     
   }
   .par{
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 50px;
+    
+    margin-top: 100px;
+    color: #000;
   }
   h1{
     font-size:xx-large;
+    color: #000;
   }
   .service{
     margin-left: 60px;
@@ -125,4 +203,5 @@
    }
    h3{
     font-size: small;
+    color: #000;
    }
