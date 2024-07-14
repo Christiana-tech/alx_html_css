@@ -1,12 +1,15 @@
-HEADPHONES TESTING WEBSITE
+In this project, we implemented from scratch, without any library, a web page using all HTML/CSS/Accessibility/Responsive design knowledge that we learned in the previous week.
 
-Table of Content
+The objective is simple: Have a fully functional web page that looks the same as the designer file.
 
-Introduction
-Screenshots
-Contributing
-Contacts
-Introduction
+The project also aims to connect UI Design wireframing based on a Figma file with HTML and ultimately CSS.
 
-Headphones webpage that allows users to test and compare different headphones based on different audio parameters. this website allows users to test, get results, and compare different models/brands to make purchasing decisions that are well informed.
+We will be adding color, fonts, element positioning using CSS and embedding images and videos in the file to make it visually dynamic.
 
+Key Topics
+The following topics are covered in the project without the use of Javascript ot CSS framework:
+
+HTML Semantics
+CSS
+media queries
+animations
